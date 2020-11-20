@@ -1,2 +1,2 @@
 # remindr
-A demo project to showcase a cross platform app with native push notifications &amp; offline capabilities using Angular PWA, Capacitor &amp; FCM
+Reminds me of some random stuff at a semi-random time

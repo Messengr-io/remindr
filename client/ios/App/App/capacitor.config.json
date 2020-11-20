@@ -1,0 +1,31 @@
+{
+  "appId": "com.remindr.app",
+  "appName": "Remindr",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "localhost:3000"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  },
+  "cordova": {},
+  "ios": {
+    "allowMixedContent": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
